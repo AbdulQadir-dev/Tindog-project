@@ -1,0 +1,197 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: Montserrat-Bold;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+footer {
+  margin: 2% 0%;
+}
+
+/* title */
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.head-title {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* NavigationBar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat-light;
+}
+
+/* DownloadButton */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* TitleImage */
+.image-title {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.row {
+  padding: 12% 0;
+}
+
+.box-features {}
+
+.fa-check-circle {
+  padding: 0 40%;
+  padding-bottom: 10px;
+  color: #ef8172;
+}
+
+.fa-bullseye {
+  padding-bottom: 10px;
+  color: #ef8172;
+}
+
+.fa-heart {
+  padding-bottom: 10px;
+  color: #ef8172;
+}
+
+.fa:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ff4c68;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-heading {
+  color: black;
+}
+
+@media (max-width: 1028px) {
+  .image-title {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* CTA */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.heading-cta {
+  font-style: Montserrat-Black;
+  font-size: 4rem;
+  font-weight: 900;
+  color: white;
+}
+
+.cta-button {
+  margin: 3% 1%;
+}
+
+/* Links */
+#links {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.link-cta {
+  padding: 5% 1%;
+}
+
+.fa-twitter {
+  color: grey;
+}
+
+.fa-facebook-f {
+  color: grey;
+}
+
+.fa-instagram {
+  color: grey;
+}
+
+.fa-envelope {
+  color: grey;
+}
